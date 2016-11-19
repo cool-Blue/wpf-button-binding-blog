@@ -28,30 +28,30 @@
                 </Trigger>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Background" TargetName="border" 
-                        Value="{StaticResource Button.MouseOver.Background}"/>
+                        Value="{DynamicResource Button.MouseOver.Background}"/>
                     <Setter Property="BorderBrush" TargetName="border" 
-                        Value="{StaticResource Button.MouseOver.Border}"/>
+                        Value="{DynamicResource Button.MouseOver.Border}"/>
                 </Trigger>
                 <Trigger Property="IsPressed" Value="True">
                     <Setter Property="Background" TargetName="border" 
-                        Value="{StaticResource Button.Pressed.Background}"/>
+                        Value="{DynamicResource Button.Pressed.Background}"/>
                     <Setter Property="BorderBrush" TargetName="border" 
-                        Value="{StaticResource Button.Pressed.Border}"/>
+                        Value="{DynamicResource Button.Pressed.Border}"/>
                 </Trigger>
                 <Trigger Property="ToggleButton.IsChecked" Value="True">
                     <Setter Property="Background" TargetName="border" 
-                        Value="{StaticResource Button.Checked.Background}"/>
+                        Value="{DynamicResource Button.Checked.Background}"/>
                     <Setter Property="BorderBrush" TargetName="border" 
-                        Value="{StaticResource Button.Static.Border}"/>
+                        Value="{DynamicResource Button.Static.Border}"/>
                 </Trigger>
                 <Trigger Property="IsEnabled" Value="False">
                     <Setter Property="Background" TargetName="border" 
-                        Value="{StaticResource Button.Disabled.Background}"/>
+                        Value="{DynamicResource Button.Disabled.Background}"/>
                     <Setter Property="BorderBrush" TargetName="border" 
-                        Value="{StaticResource Button.Disabled.Border}"/>
+                        Value="{DynamicResource Button.Disabled.Border}"/>
                     <Setter Property="TextElement.Foreground" 
                         TargetName="contentPresenter" 
-                        Value="{StaticResource Button.Disabled.Foreground}"/>
+                        Value="{DynamicResource Button.Disabled.Foreground}"/>
                 </Trigger>
 
                 <!--Toggle content based on state-->
@@ -71,7 +71,7 @@
                     </MultiTrigger.Conditions>
                     <MultiTrigger.Setters>
                         <Setter Property="Background" TargetName="border" 
-                        Value="{StaticResource 
+                        Value="{DynamicResource 
                             Button.MouseOver.Checked.Background}"/>
                     </MultiTrigger.Setters>
                 </MultiTrigger>
@@ -83,7 +83,7 @@
                     </MultiTrigger.Conditions>
                     <MultiTrigger.Setters>
                         <Setter Property="Background" TargetName="border" 
-                        Value="{StaticResource 
+                        Value="{DynamicResource 
                             Button.Pressed.Background}"/>
                     </MultiTrigger.Setters>
                 </MultiTrigger>
