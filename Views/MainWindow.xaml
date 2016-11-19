@@ -12,8 +12,13 @@
                         AncestorType="{x:Type Window}" />
 
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="ViewStyles.xaml"></ResourceDictionary>
-                <ResourceDictionary Source="ToggleButton.xaml"></ResourceDictionary>
+                
+                <!--Local Resources-->
+                <ResourceDictionary Source="pack://application:,,,/Views/Styles/ViewStyles.xaml"></ResourceDictionary>
+                
+                <!--Library Resources-->
+                <ResourceDictionary Source="pack://application:,,,/ContentToggleButton;component/ToggleButton.xaml"></ResourceDictionary>
+                
             </ResourceDictionary.MergedDictionaries>
             
         </ResourceDictionary>

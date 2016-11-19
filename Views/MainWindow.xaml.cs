@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
 using ButtonBindingMinimal.ViewModels;
+using ContentToggleButton;
 
 namespace ButtonBindingMinimal.Views
 {

@@ -52,6 +52,9 @@
     <Reference Include="Binding">
       <HintPath>..\..\WPF\Class Lib\Binding\bin\Release\Binding.dll</HintPath>
     </Reference>
+    <Reference Include="ContentToggleButton">
+      <HintPath>..\..\WPF\Class Lib\ContentToggleButton\ContentToggleButton\bin\Release\ContentToggleButton.dll</HintPath>
+    </Reference>
     <Reference Include="ControlAutomation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\WPF\Class Lib\ControlAutomation\bin\Debug\ControlAutomation.dll</HintPath>
@@ -80,16 +83,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ViewModels\ViewModel.cs" />
-    <Compile Include="Views\Buttons.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\ToggleButton.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\ViewStyles.xaml">
+    <Page Include="Views\Styles\ViewStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
